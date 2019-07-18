@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class LJTagView: UIView {
+open class LJTagView: UIView {
 
-    public var tagLab: UILabel?
+    open var tagLab: UILabel?
     public var count: Int = 0
     
     override init(frame: CGRect) {
@@ -31,7 +31,7 @@ public class LJTagView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func show() {
+    open func show() {
         
         tagLab?.text = "弹出第\(count)个测试框"
         addSubview(tagLab!)

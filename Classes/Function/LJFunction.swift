@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class LJFunction: NSObject {
+open class LJFunction: NSObject {
     
-    public func returnCount() -> Int {
+    open func returnCount() -> Int {
         
         return Int(arc4random() % 100)
     }
