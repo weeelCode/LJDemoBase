@@ -2,11 +2,11 @@
 Pod::Spec.new do |s|
 
   s.name         = "LJDemoBase"
-  s.version      = "1.0.1"
+  s.version      = "1.0.3"
   s.swift_version = '5.0'
-  s.summary      = "LJDemoBase summary 1.0.1 "
+  s.summary      = "LJDemoBase summary 1.0.3 "
   s.description  = <<-DESC
-                    LJDemoBase 1.0.1 组件化仓库搭建
+                    LJDemoBase 1.0.3 组件化仓库搭建
                    DESC
   
   s.homepage     = "https://github.com/weeelCode/LJDemoBase"
