@@ -12,7 +12,7 @@ public class LJMainViewController: UIViewController {
 
     public var tagView: LJTagView?
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         
         super.viewDidLoad()
         
@@ -24,7 +24,7 @@ public class LJMainViewController: UIViewController {
         view.backgroundColor = .white
     }
     
-    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         tagView?.show()
     }
 }
