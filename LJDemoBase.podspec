@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LJDemoBase"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.swift_version = '5.0'
   s.summary      = "LJDemoBase summary"
   s.description  = <<-DESC

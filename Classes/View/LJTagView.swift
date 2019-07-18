@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LJTagView: UIView {
+public class LJTagView: UIView {
 
     public var tagLab: UILabel?
     public var count: Int = 0

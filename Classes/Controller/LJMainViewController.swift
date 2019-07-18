@@ -8,9 +8,9 @@
 
 import UIKit
 
-class LJMainViewController: UIViewController {
+public class LJMainViewController: UIViewController {
 
-    var tagView: LJTagView?
+    public var tagView: LJTagView?
     
     override func viewDidLoad() {
         

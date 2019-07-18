@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LJFunction: NSObject {
+public class LJFunction: NSObject {
     
     public func returnCount() -> Int {
         
